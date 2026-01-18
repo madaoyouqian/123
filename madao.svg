@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="g" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3B30"/>
+      <stop offset="1" stop-color="#FFB020"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#g)"/>
+
+  <!-- 盾牌 -->
+  <path d="M16 7.4 L23.6 10.4 V16.5c0 5-3.6 8.2-7.6 9.9c-4-1.7-7.6-4.9-7.6-9.9V10.4Z"
+        fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- 钱币（替换原中间图案）：外圈 + 内圈 + 方孔 -->
+  <circle cx="16" cy="16.2" r="5.3" fill="url(#g)"/>
+  <circle cx="16" cy="16.2" r="3.7" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.95"/>
+  <rect x="14.6" y="14.8" width="2.8" height="2.8" rx="0.6" fill="#FFFFFF" opacity="0.95"/>
+
+  <!-- 轻微高光（几何弧） -->
+  <path d="M13.2 13.8 A4.6 4.6 0 0 1 16.9 12.6"
+        fill="none" stroke="#FFFFFF" stroke-width="1.1" stroke-linecap="round" opacity="0.55"/>
+</svg>
